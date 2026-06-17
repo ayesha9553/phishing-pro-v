@@ -75,7 +75,7 @@ This project has been deployed!
 - **Backend API:** https://phishing-pro-backend.onrender.com
 
 **How it is hosted:**
-- The **Frontend** is served as static files via **GitHub Pages**. 
+- The **Frontend** is served as static files via **GitHub Pages**. (Note: A .nojekyll file and relative /css/ /js/ paths are required for the UI to correctly locate its style assets on GitHub pages). 
 - The **Backend** is deployed to **Render** as a free Web Service. It automatically spins up when you use the app. *(Note: The very first scan may take ~30-50 seconds as the free server wakes up from sleep).*
 
 ---
