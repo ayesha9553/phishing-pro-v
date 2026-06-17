@@ -4,7 +4,7 @@
  */
 
 const API = {
-    BASE_URL: '',
+    BASE_URL: 'https://phishing-pro-backend.onrender.com',
 
     async _request(method, path, { body, isFormData } = {}) {
         const options = {
