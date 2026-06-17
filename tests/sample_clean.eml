@@ -1,0 +1,25 @@
+From: "John Smith" <john.smith@company.com>
+To: jane.doe@company.com
+Subject: Team Meeting Tomorrow at 10 AM
+Date: Mon, 10 Jun 2025 14:22:00 -0400
+Message-ID: <CABx2v+abc123@mail.company.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Authentication-Results: mx.company.com; spf=pass; dkim=pass; dmarc=pass
+Received: from mail-wr1-f53.google.com (mail-wr1-f53.google.com [209.85.221.53])
+    by mx.company.com with ESMTPS
+Received: from [10.0.0.15] by smtp.company.com with SMTP
+
+Hi Jane,
+
+Just a reminder that we have a team meeting scheduled for tomorrow at 10 AM 
+in Conference Room B.
+
+We'll be discussing the Q3 project timeline and resource allocation. Please 
+bring any updates on your current tasks.
+
+If you can't make it, let me know and I'll send you the meeting notes afterward.
+
+Best regards,
+John Smith
+Engineering Team Lead

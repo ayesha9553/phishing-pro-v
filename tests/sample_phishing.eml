@@ -1,0 +1,56 @@
+From: "PayPal Security" <security-alert@paypa1-support.tk>
+Reply-To: stolen-data@evil-domain.xyz
+To: victim@example.com
+Subject: URGENT: Your PayPal Account Has Been Suspended!
+Date: Mon, 10 Jun 2025 08:30:00 +0000
+Message-ID: <fake-msg-id@paypa1-support.tk>
+X-Mailer: King Phisher 1.14
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary123"
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+Received: from localhost (unknown [192.168.1.100]) by mail.paypa1-support.tk
+
+--boundary123
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body style="font-family: Arial;">
+<p>Dear Valued Customer,</p>
+
+<p>We have detected <strong>UNAUTHORIZED ACCESS</strong> to your PayPal account. Your account has been temporarily <strong>SUSPENDED</strong> due to suspicious activity.</p>
+
+<p>You must verify your identity <strong>IMMEDIATELY</strong> or your account will be <strong>PERMANENTLY CLOSED</strong> within 24 hours.</p>
+
+<p><strong>CLICK HERE TO VERIFY YOUR ACCOUNT:</strong></p>
+<p><a href="http://paypal-secure-login.evil-site.tk/verify?user=victim">https://www.paypal.com/security/verify</a></p>
+
+<p>Please provide the following to confirm your identity:</p>
+<ul>
+<li>Your PayPal username and password</li>
+<li>Your credit card number and CVV</li>
+<li>Your Social Security Number</li>
+<li>Your date of birth</li>
+</ul>
+
+<p>Failure to act within 24 hours will result in permanent account closure and possible legal action.</p>
+
+<p>If you need assistance, contact us at: <a href="http://bit.ly/fake-support">http://bit.ly/fake-support</a></p>
+
+<p>Sincerely,<br>
+PayPal Security Team<br>
+IT Department</p>
+
+<form action="http://evil-collector.xyz/steal-data" method="POST" style="display:none">
+<input type="text" name="cc">
+</form>
+</body>
+</html>
+
+--boundary123
+Content-Type: application/x-msdownload; name="security_patch.exe"
+Content-Disposition: attachment; filename="security_patch.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA==
+
+--boundary123--
